@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SEC Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">
+    Skip to Main Content
+</a>
+
+<header>
+
+    <h1>SEC Student Portal</h1>
+
+    <nav aria-label="Main navigation">
+
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Profile</a>
+
+    </nav>
+
+</header>
+
+<main id="main-content">
+
+    <!-- Search Section -->
+    <section>
+
+        <h2>Search Courses</h2>
+
+        <label for="search">Search Course</label>
+
+        <input
+            id="search"
+            type="text"
+            placeholder="Search Courses"
+            aria-describedby="searchHelp">
+
+        <small id="searchHelp">
+            Type the course name.
+        </small>
+
+        <p
+            id="result-count"
+            role="status"
+            aria-live="polite">
+
+            5 Courses Found
+
+        </p>
+
+    </section>
+
+    <!-- Course Grid -->
+    <section class="course-grid">
+
+        <div class="course-card" tabindex="0">
+
+            <img src="images/student.webp"
+                 alt="Student studying Python">
+
+            <h3>Python</h3>
+
+            <p>Credits : 4</p>
+
+            <button aria-label="View Python Course Details">
+                View Details
+            </button>
+
+        </div>
+
+        <div class="course-card" tabindex="0">
+
+            <img src="images/student1.webp"
+                 alt="Student studying Java">
+
+            <h3>Java</h3>
+
+            <p>Credits : 4</p>
+
+            <button aria-label="View Java Course Details">
+                View Details
+            </button>
+
+        </div>
+
+        <div class="course-card" tabindex="0">
+
+            <img src="images/student2.jpg"
+                 alt="Student studying React">
+
+            <h3>React</h3>
+
+            <p>Credits : 3</p>
+
+            <button aria-label="View React Course Details">
+                View Details
+            </button>
+
+        </div>
+
+        <div class="course-card" tabindex="0">
+
+            <img src="images/student3.jpg"
+                 alt="Student studying Angular">
+
+            <h3>Angular</h3>
+
+            <p>Credits : 3</p>
+
+            <button aria-label="View Angular Course Details">
+                View Details
+            </button>
+
+        </div>
+
+        <div class="course-card" tabindex="0">
+
+            <img src="images/student4.webp"
+                 alt="Student studying Vue">
+
+            <h3>Vue</h3>
+
+            <p>Credits : 2</p>
+
+            <button aria-label="View Vue Course Details">
+                View Details
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 SEC Student Portal</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

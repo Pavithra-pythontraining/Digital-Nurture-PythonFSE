@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f4f4;
+}
+
+a{
+    text-decoration:none;
+}
+
+button{
+    cursor:pointer;
+}
+.header{
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.header a{
+    color:white;
+    font-weight:bold;
+}
+
+.page{
+    padding:40px;
+}
+
+.course-card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.course-card a{
+    display:inline-block;
+    margin-top:10px;
+    color:#2563eb;
+}
+
+button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+
+.footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
